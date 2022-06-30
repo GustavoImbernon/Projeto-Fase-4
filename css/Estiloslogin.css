@@ -1,0 +1,84 @@
+body{
+    font-family: 'Exo', sans-serif;
+    background-color: #142131;
+    overflow: hidden;
+}
+#containerFundo{
+    width: 100vw;
+    height: 100vw;
+    background-image: url(../assets/images/Darkblue\ moeda.jp);
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color:#A9A9A9
+}
+.margem0{
+    height: 50px;
+}
+.margem1{
+    height: 10px;
+}
+#container-login{
+    color: #142131;
+    background-color: #EFAABC;
+    border-radius: 20px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+form{
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+label,input{
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+label{
+    font-weight: bold;
+}
+input{
+    border: 1px;
+    padding: 5px;
+}
+#forgot-pass{
+    text-align: right;
+    display: block;
+}
+#btnEntrar{
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    background-color:#142131;
+    color: #D3D3D3;
+}
+#btnEntrar:hover{
+    background-color:#2a4363 ;
+    transition: 1s;
+}
+#container-social{
+    margin-bottom: 20px;
+    word-spacing: 20px;
+}
+#container-social i {
+    font-size: 30px;
+}
+.bi-facebook{
+    color:#3b5998;
+}
+.bi-google{
+    color:#D3D3D3
+}
+#facebookLink{
+    text-decoration: none;
+}
+#googleLink{
+    text-decoration: none;
+}
